@@ -71,4 +71,15 @@ else{
     console.log("number is odd")
 }
 
-//
+// 4- Write a js program to check whether a number is divisible by 5 and 11 or not
+
+
+var x1 =+ prompt("enter a number");
+
+if(x1%5==0 && x1%11==0){
+    console.log("number is divided on 5 and 11");
+}
+
+else{
+    console.log("number is not divided on 5 and 11");
+}
