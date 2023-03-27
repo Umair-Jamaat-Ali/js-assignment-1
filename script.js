@@ -83,3 +83,15 @@ if(x1%5==0 && x1%11==0){
 else{
     console.log("number is not divided on 5 and 11");
 }
+
+// 6-Write a js program to check whether a year is leap year or not
+
+var x2 =+ prompt("enter februry month days")
+
+if(x2 == 29){
+    console.log("This year is leap year")
+}
+
+else{
+    console.log("This year is not leap year")
+}
