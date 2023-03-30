@@ -153,3 +153,81 @@ if( engCase >="A" && engCase <="Z"){
 else{
     console.log("character is lowercase")
 }
+
+
+//11. write a js program to input all angles of a triangle and check whether triangle is valid or not?
+
+function angleTri(params) {
+    if(A + B + C == 180){
+        console.log("triangle is valid")
+    }
+
+    else{
+        console.log("triangle is not valid")
+    }
+}
+
+var A =+ prompt("enter A value");
+
+var B =+ prompt("enter B value");
+
+var C =+ prompt("enter C value");
+
+
+angleTri(A,B,C)
+
+
+
+//12. write a js program to input all sides of a triangle and check whether triangle is valid or not?
+
+function sideTri(a,b,c) {
+
+    if(a + b > c && b + c > a && a + c > b){
+        console.log("triangle is valid")
+    }
+
+    else{
+        console.log("triangle is not valid")
+    }
+    
+}
+
+var a =+ prompt("enter a value");
+
+var b =+ prompt("enter b value");
+
+var c =+ prompt("enter c value");
+
+
+sideTri(a,b,c)
+
+
+// 13. write a js program to check whether triangle is equilateral, isosceles or scalene triangle.
+
+function checkTriangle(side1,side2,side3) {
+
+    if( side1 === side2 && side2 === side3 ){
+        console.log("triangle is equilateral")
+    }
+    
+   else if(side1 == side2 || side2 == side3 || side1 === side3){
+        console.log("triangle is isosceles")
+    }
+
+    else{
+        console.log("triangle is scalene ")
+    }
+
+}
+
+
+var side1 =+ prompt("enter side1");
+
+
+var side2 =+ prompt("enter side2");
+
+
+var side3 =+ prompt("enter side3");
+
+
+checkTriangle(side1,side2,side3)
