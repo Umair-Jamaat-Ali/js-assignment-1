@@ -231,3 +231,34 @@ var side3 =+ prompt("enter side3");
 
 
 checkTriangle(side1,side2,side3)
+
+
+
+//18. Write a js program to calculate profit or loss.
+
+var sellPrice =+ prompt("enter the sell price");
+
+
+var boughtPrice =+ prompt("enter the bought price");
+
+var y = sellPrice - boughtPrice
+
+if(y >= 0){
+    console.log("you get profit R,s", y);
+}
+
+else{
+    console.log("you are in loss R,s", y);
+}
+
+
+
+
+// 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+//Percentage >= 90% : Grade A
+//Percentage >= 80% : Grade B
+//Percentage >= 70% : Grade C
+//Percentage >= 60% : Grade D
+//Percentage >= 40% : Grade E
+//Percentage < 40% : Grade F
+
